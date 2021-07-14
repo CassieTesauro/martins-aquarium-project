@@ -1,0 +1,77 @@
+@import url("./fishesSection.css");
+@import url("./quotesSection.css");
+@import url("./locationsSection.css");
+
+body {
+    background-color: #def3f6;
+    margin: 0;
+}
+
+.bodyHeader {
+    background-color: #1b405e;
+    color: whitesmoke;
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bodyHeader h1 {
+    padding: 15px 0;
+    margin: 50px 0;
+}
+
+.header {
+    color: whitesmoke;
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;  
+} 
+
+.container {
+    display: flex;  
+
+}
+
+.mainSection {
+    margin-top: 0;
+    flex: 3;
+}
+
+ .asideRight {
+    flex: 1;
+    background-color: rgb(228, 113, 98);
+    border-right: 15px solid #def3f6;
+} 
+
+.header--asideTankMaintenance {
+    background-color: rgb(177, 89, 77);
+    color: whitesmoke;
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px 0;
+    padding: 15px 0;   
+}
+
+.subheader {
+    text-align: center;
+    margin-top: 3rem; 
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    flex-basis: 25%;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(39, 39, 39);
+}
+
+.text--asideTankMaintenance {
+    
+    font-size: 20px;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}

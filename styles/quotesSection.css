@@ -1,0 +1,35 @@
+/* box= quotes section in article */
+.quotesSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #68a6be;
+    padding-bottom: 15px;
+    border-left: 15px solid #def3f6;
+    border-right: 15px solid #def3f6;
+    border-bottom: 15px solid #def3f6;
+    border-radius: 10px;
+}
+
+.header--quotesSection {
+    background-color: #588da1;
+    margin-top: 0;
+    margin-bottom: 0;/*test*/
+    padding: 25px 0;
+    border-left: 15px solid #def3f6;
+    border-right: 15px solid #def3f6;
+    border-radius: 10px;
+}
+
+/*boxes in box= each quote's main div in the quotes section of the main article  */
+.quote {
+    margin: 1rem 1rem;
+    flex-basis: 100%;
+}
+
+.quote__text {
+    font-size: 23px;
+    color: whitesmoke;
+    font-weight: 500;  
+}
+

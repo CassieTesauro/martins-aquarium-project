@@ -1,0 +1,40 @@
+/* box= fishes section in article */
+.fishSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #83cdeb;
+    border-left: 15px solid #def3f6;
+    border-right: 15px solid #def3f6;
+    border-bottom: 15px solid #def3f6;
+    border-radius: 10px; 
+}
+
+.header--fishesSection{
+    background-color: #65afcc;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 25px 0;
+    border-left: 15px solid #def3f6;
+    border-right: 15px solid #def3f6;
+    border-radius: 10px;
+}
+
+
+/*boxes in box= each fish's main div in the fishes section of the main article  */
+.fish {
+    margin: 0.5rem 1rem;
+    flex-basis: 25%;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(39, 39, 39);
+}
+
+.fish__name {
+    text-align: center;
+    font-size: 30px;
+    margin: 0.5rem
+}
+
+
+

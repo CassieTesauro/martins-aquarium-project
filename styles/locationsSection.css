@@ -1,0 +1,35 @@
+/* box= locations section in article */
+.locationsSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #417083;
+    padding: 25px 0;
+    border-left: 15px solid #def3f6;
+    border-right: 15px solid #def3f6;
+    border-radius: 10px;
+}
+
+.header-locationsSection {
+    background-color: #385f6e;
+    margin-top: 0;
+    margin-bottom: 0;/*test*/
+    padding: 25px 0;
+    border-left: 15px solid #def3f6;
+    border-right: 15px solid #def3f6;
+    border-bottom: 0 solid #def3f6;
+    border-radius: 10px;
+}
+
+/*boxes in box= each location's main div in the locations section of the main article  */
+.location {
+    margin: 0.5rem 1rem;
+    flex-basis: 25%;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.location__name {
+    font-size: 30px;
+}
